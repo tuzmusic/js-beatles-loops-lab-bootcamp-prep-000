@@ -1,6 +1,14 @@
-function theBeatlesPlay() {
-  return ['John Lennon plays Guitar',
-  'Paul McCartney plays Bass Guitar',
-  'George Harrison plays Lead Guitar',
-  'Ringo Starr plays Drums']
+function theBeatlesPlay(musicians, instruments) {
+  var array = []
+  for (i=0;i<musicians.length,i++) {
+    array.push(`${musicians[i]} plays ${instruments[i]}`)
+  }
+}
+
+function johnLennonFacts(facts) {
+
+}
+
+function iLoveTheBeatles(count) {
+
 }
